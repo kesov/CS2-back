@@ -26,10 +26,8 @@ composer install
 
 # Настроить окружение
 cp .env.example .env
-# Отредактируйте .env файл (база данных, порт и т.д.)
 
-# Сгенерировать ключ
-php artisan key:generate
+Отредактируйте .env файл (база данных, порт и т.д.)
 
 # Запустить миграции
 php artisan migrate
@@ -40,10 +38,13 @@ php artisan serve --port=8000
 
 ### API Endpoints
 
-Метод	URL	Описание
+Метод	      URL	             Описание
+
 POST	/api/register-team	Регистрация команды
-GET	/api/teams	Получить все команды
-DELETE	/api/teams/{id}	Удалить команду
+
+GET	     /api/teams      	Получить все команды
+
+DELETE	/api/teams/{id} 	Удалить команду
 
 ## Безопасность
 
