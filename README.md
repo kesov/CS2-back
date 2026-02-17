@@ -38,13 +38,11 @@ php artisan serve --port=8000
 
 ### API Endpoints
 
-Метод	      URL	             Описание
-
-POST	/api/register-team	Регистрация команды
-
-GET	     /api/teams      	Получить все команды
-
-DELETE	/api/teams/{id} 	Удалить команду
+| Метод | URL | Описание |
+|-----|-------------|----------|
+| POST | `/api/register-team` | Регистрация команды |
+| GET | `/api/teams` | Получить все команды |
+| DELETE | `/api/teams/{id}` | Удалить команду |
 
 ## Безопасность
 
